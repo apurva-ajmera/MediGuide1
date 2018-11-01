@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/first_view"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="85dp"
+        android:src="#4B0082" />
+
+        <Button
+            android:id="@+id/skin_crt_btn"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/first_view"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/first_view"
+            android:background="@drawable/background_login"
+            android:text="Skin Related Issue"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/skin_crt_btn"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_toStartOf="@+id/skin_crt_btn"
+        android:src="#4B0082"
+        android:id="@+id/second_view" />
+
+    <Button
+        android:id="@+id/hair_crt_btn"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/skin_crt_btn"
+        android:layout_alignTop="@+id/second_view"
+        android:background="@drawable/background_login"
+        android:text="Hair Related Issue"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/third_view"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/second_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:src="#4B0082"/>
+
+    <Button
+        android:id="@+id/teeth_crt_btn"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/hair_crt_btn"
+        android:layout_alignTop="@+id/third_view"
+        android:background="@drawable/background_login"
+        android:text="Teeth Related Issue"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/third_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:src="#4B0082"
+        android:id="@+id/fourth_view" />
+
+    <Button
+        android:id="@+id/neck_crt_btn"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/teeth_crt_btn"
+        android:layout_alignTop="@+id/fourth_view"
+        android:text="Neck Related Issue"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@drawable/background_login"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/fourth_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:src="#4B0082"
+        android:id="@+id/circleImageView2" />
+
+    <Button
+        android:id="@+id/other_crt_btn"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/neck_crt_btn"
+        android:layout_alignTop="@+id/circleImageView2"
+        android:background="@drawable/background_login"
+        android:text="Any Other"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

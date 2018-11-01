@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MediGuide1</string>
+    <string name="welcome_to">Welcome To</string>
+    <string name="welcome_1">Welcome</string>
+    <string name="to_1">To</string>
+    <string name="mediguide_1">MediGuide</string>
+    <string name="name_1">name</string>
+    <string name="email_1">email</string>
+    <string name="password_1">password</string>
+    <string name="username_1">UserName</string>
+    <string name="password_2">Password</string>
+    <string name="username_2">UserName</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="log_in_1">Log In</string>
+    <string name="username_reg2">Username</string>
+    <string name="password_reg_2">Password</string>
+    <string name="adharcard_number">AdharCard Number</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "878394520683",
+    "firebase_url": "https://mediguide1-8261f.firebaseio.com",
+    "project_id": "mediguide1-8261f",
+    "storage_bucket": "mediguide1-8261f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878394520683:android:04a403b9e058a756",
+        "android_client_info": {
+          "package_name": "com.example.apurva.mediguide1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878394520683-hvo1odvsd1kva4muqvkdc5rj3f8utrun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Am_XcTWAYYHPTajlGTFLIjZHXelrs8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
